@@ -1,0 +1,41 @@
+.author__data {
+    &--name {
+        font-family: $playfair;
+        font-weight: $font-black;
+        font-style: italic;
+        font-size: 2rem;
+    }
+
+    &--rrss {
+        color: $fuzzy-wuzzy;
+        font-weight: $font-light;
+    }
+
+    &--web {
+        color: $fuzzy-wuzzy;
+        font-weight: $font-light;
+    }
+
+    &--description {
+        display: none;
+        text-align: left;
+    }
+}
+
+.author__image {
+    width: 40%;
+    height: auto;
+
+}
+
+@media (min-width: 576px) {
+    .author__data--description {
+            display: inline;
+            text-align: left;
+    }
+
+    .author__image {
+        width: 75%;
+        height: auto;
+    }
+}

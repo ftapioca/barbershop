@@ -1,0 +1,46 @@
+.single-post__date {
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: $eerie-black;
+    font-family: $playfair;
+    font-weight: $font-light;
+}
+
+.single-post_primer-parrafo {
+    color: $raisin-black;
+    font-family: $roboto;
+    font-weight: $font-light;
+}
+
+.single-post_otro-parrafo {
+    margin-top: 3rem;
+    color: $raisin-black;
+    font-family: $roboto;
+    font-weight: $font-light;
+}
+
+.buttons-share {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+.mostrar {
+    display: none;
+}
+
+@media (min-width: 576px){
+    .single-post__date {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        color: $eerie-black;
+        font-family: $playfair;
+        font-weight: $font-light;
+    }
+
+    .mostrar {
+        display: block;
+    }
+}
+    
+
